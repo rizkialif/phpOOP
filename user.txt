@@ -1,0 +1,11 @@
+## USER ##
+- Level 1 = admin
+- Level 2 = user
+
+#Admin
+email: admin@admin.com
+pass : admin
+
+#User
+email: june@mail.com
+pass : june 

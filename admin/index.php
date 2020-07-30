@@ -1,0 +1,1 @@
+<?php header('Location: daftar-arsip.php');?>

@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+/* body {
+    font-family: 'Lato', sans-serif;
+} */
+
+/*
+section {
+    padding-top: 4rem;
+    margin-top: -4rem;
+    margin-bottom: 2rem;
+} */
+
+.navbar {
+    font-weight: bold;
+    background-color: #1B5E20;
+}
+/* .logo{
+    position: fixed;
+    padding-left: 20px;
+} */
+
+.bg-footer{
+    background-color: #1B5E20;
+}
+
+nav a:hover {
+    color: rgb(162, 251, 45) !important;
+}
+
+.carousel-caption {
+    transform: translateY(-50%);
+    bottom: 0;
+    top: 50%;
+}
+
+.paragraphtext{
+    text-align: justify;
+}
+.headactivity{
+    background-image: url("../img/carousel-3.jpg");
+    text-align: center;
+    padding-left: 5em;
+    padding-top: 4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    height: 200px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    
+}
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+.rounded-icon {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+.mark{
+    color: #1B5E20;
+    text-align: center;
+    background-color: #fff;
+}
+.textheadcontent{
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+.textheadcontent a{
+    color: #1B5E20;
+}
+.textheadcontent a:hover{
+    color: rgb(137, 168, 0);
+}
+.textcontent{
+    /* font-family: 'Segoe UI'; */
+    text-align: justify;
+}
+
+.link-unstyled{
+    text-decoration: none !important;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #FBC02D !important;
+}
+
+
+
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+   
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+    .navbar-brand{
+        padding-left:1em;
+    }
+    .hidder {
+        display: none;
+    }
+
+    .card-img-top > img{
+        width: 100%;
+    }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .navbar-brand{
+        padding-left:1em;
+    }
+    .hidder {
+        display: none;
+    }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+    #top {
+        display: none;
+    }
+   
+}
+
